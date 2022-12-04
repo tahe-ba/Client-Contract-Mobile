@@ -1,4 +1,4 @@
-package com.example.projetds;
+package com.example.ClientContractMobile;
 
 import android.content.Context;
 

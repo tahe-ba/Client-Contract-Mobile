@@ -1,4 +1,4 @@
-package com.example.projetds;
+package com.example.ClientContractMobile;
 
 import android.annotation.SuppressLint;
 import android.database.Cursor;
@@ -13,7 +13,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import java.util.ArrayList;
+import com.example.ClientContract.R;
 
 public class Client extends AppCompatActivity {
 

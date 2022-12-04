@@ -1,4 +1,4 @@
-package com.example.projetds;
+package com.example.ClientContractMobile;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -14,11 +14,14 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.ClientContract.R;
+
+
 public class SelectClient extends AppCompatActivity {
 
 
     private TextView _txtViewHeader;
-    private LinearLayout _layoutContractSelectClient, _layoutSelectClientDetails, _layoutSelectNavButtons;
+    private LinearLayout _layoutSelectClientDetails, _layoutSelectNavButtons;
     private EditText _edtTxtSearchName, _edtTxtSelectedClientName, _edtTxtSelectedClientAddress, _edtTxtSelectedClientTel, _edtTxtSelectedClientFax, _edtTxtSelectedClientContact, _edtTxtSelectedClientTelContact;
     private ImageButton _btnFirstPage, _btnPrevious, _btnNext, _btnLastPage;
     private Button _btnSelectThisClient, _btnSearchClient;
@@ -50,7 +53,6 @@ public class SelectClient extends AppCompatActivity {
 
         //link to the xml file
         _txtViewHeader = findViewById(R.id.txtViewHeader);
-        _layoutContractSelectClient = findViewById(R.id.layoutContractSelectClient);
         _layoutSelectClientDetails = findViewById(R.id.layoutSelectClientDetails);
         _layoutSelectNavButtons = findViewById(R.id.layoutSelectNavButtons);
         _edtTxtSearchName = findViewById(R.id.edtTxtSearchName);

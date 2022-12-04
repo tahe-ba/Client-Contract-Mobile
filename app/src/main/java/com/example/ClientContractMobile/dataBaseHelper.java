@@ -1,4 +1,4 @@
-package com.example.projetds;
+package com.example.ClientContractMobile;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -8,7 +8,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class dataBaseHelper extends SQLiteOpenHelper {
 
-    public static final String DATABASE_NAME = "dev-035.sqlite";
+    public static final String DATABASE_NAME = "dev-038.sqlite";
     public static final String TABLE_NAME = "client";
     public static final String CL_ID = "Id";
     public static final String CL_NAME = "name";

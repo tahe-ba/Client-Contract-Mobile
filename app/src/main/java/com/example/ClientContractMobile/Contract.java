@@ -1,4 +1,4 @@
-package com.example.projetds;
+package com.example.ClientContractMobile;
 
 import android.annotation.SuppressLint;
 import android.app.DatePickerDialog;
@@ -19,6 +19,8 @@ import androidx.activity.result.ActivityResultCallback;
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.ClientContract.R;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -100,8 +102,10 @@ public class Contract extends AppCompatActivity {
                 String clientTel = bundle.getString("clientTel");
                 _edtTxtContractSelectedClientName.setText(clientName);
                 _edtTxtContractSelectedClientTel.setText(clientTel);
-//                makeToast("Client selected " + _selectedClientId);
-                //_btnConfirm.setEnabled(true); // OUTER-JOIN make it only accept creating contract after selecting a client
+/*
+                 makeToast("Client selected " + _selectedClientId);
+                _btnConfirm.setEnabled(true); // OUTER-JOIN make it only accept creating contract after selecting a client
+                */
             }
 
         }

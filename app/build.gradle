@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.projetds'
+    namespace 'com.example.ClientContract'
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.projetds"
+        applicationId "com.example.ClientContractMobile"
         minSdk 22
         targetSdk 32
         versionCode 1
